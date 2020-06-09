@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent/filemanage-parent.iml" filepath="$PROJECT_DIR$/parent/filemanage-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/filemanage-parent/filemanage-parent.iml" filepath="$PROJECT_DIR$/filemanage-parent/filemanage-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/filemanage-parent/filemanage-parent.iml" filepath="$PROJECT_DIR$/filemanage-parent/filemanage-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-client/filemanage-sso-client.iml" filepath="$PROJECT_DIR$/sso-client/filemanage-sso-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/filemanage-user-service.iml" filepath="$PROJECT_DIR$/user-service/filemanage-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/filemanagement.iml" filepath="$PROJECT_DIR$/.idea/filemanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" />
     </modules>
   </component>
 </project>

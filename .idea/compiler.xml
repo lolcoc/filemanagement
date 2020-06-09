@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="filemanage-parent" />
+        <module name="filemanage-sso-client" />
+        <module name="filemanage-user-service" />
+        <module name="sdk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="filemanage-parent" target="1.5" />
+      <module name="filemanage-sso-client" target="1.5" />
+      <module name="filemanage-user-service" target="1.5" />
+      <module name="sdk" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

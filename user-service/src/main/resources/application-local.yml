@@ -13,3 +13,17 @@ mysql:
     test-on-borrow : false
     time-between-eviction-runs-millis: 60000
     min-evictable-idle-time-millis: 300000
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+    check: false
+    timeout: 10000
+    file: /opt/app/.dubbo/filemanage-user-service-provider.cache
+  protocol:
+    name: dubbo
+    host: 127.0.0.1
+    port: 21841
+    threads: 100
+  provider:
+    timeout: 10000

@@ -10,9 +10,9 @@
       <excludeFolder url="file://$MODULE_DIR$/../filemanage-sso-client/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="filemanage-user-service" />
-    <orderEntry type="module" module-name="sdk" />
+    <orderEntry type="module" module-name="sdk" exported="" />
   </component>
 </module>

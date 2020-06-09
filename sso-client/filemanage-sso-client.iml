@@ -13,6 +13,6 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="filemanage-user-service" />
-    <orderEntry type="module" module-name="sdk" exported="" />
+    <orderEntry type="module" module-name="sdk" />
   </component>
 </module>

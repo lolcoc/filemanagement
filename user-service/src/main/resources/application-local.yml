@@ -1,0 +1,15 @@
+logging:
+  level:
+    root: INFO
+mysql:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/comanage?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true
+    username: root
+    password: Lf123789...
+    max-wait: 60000
+    min-idle: 3
+    max-active: 20
+    initial-size: 10
+    test-on-borrow : false
+    time-between-eviction-runs-millis: 60000
+    min-evictable-idle-time-millis: 300000
